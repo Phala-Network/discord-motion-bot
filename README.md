@@ -8,3 +8,12 @@ Tested with node v14. Must config `.env` file like below:
 WEBHOOK_URL=https://discord.com/api/webhooks/..../....
 MENTION=<@&.....>
 ```
+
+Usage:
+
+```
+# Test to preview without sending messages
+DRY_RUN=1 node .
+# Actually run it
+node .
+```
